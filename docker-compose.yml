@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  workspace:
+    build: ./workspace
+    volumes:
+       - ./vim/vimrc.conf:/root/.vimrc
+
