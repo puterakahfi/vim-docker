@@ -6,4 +6,7 @@ services:
     build: ./workspace
     volumes:
        - ./vim/vimrc.conf:/root/.vimrc
+       - ./vim/vim:/root/.vim/
+       - ./test/:/mnt/test
+       - /mnt/WEBSITE/:/mnt/WEBSITE
 

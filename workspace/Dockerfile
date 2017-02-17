@@ -8,7 +8,6 @@ RUN apt-get update && \
     apt-get install -y --force-yes \
         vim \
         git \
-        tmux \
     && apt-get clean
 
 
