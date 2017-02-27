@@ -1,9 +1,12 @@
 version: '2'
 
 services:
-
-  workspace:
-    build: ./workspace
+  vim:
+    build:
+      context: .
+      args:
+        - INSTALL_SPACEVIM=true
+    container_name: myvim
     volumes:
        - ./vim/vimrc.conf:/root/.vimrc
        - ./vim/vim:/root/.vim/
