@@ -2,3 +2,4 @@ vim/vim/
 vim/.wakatime.cfg
 vim/.wakatime.data
 vim/.viminfo
+vim/.cache/
